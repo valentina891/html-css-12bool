@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after,
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.row {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+[class^="col-"] {
+    background-color: #781302;
+    border: 2px solid white;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+
+[class$="light"] {
+  background-color: #8a320b;
+}
+
+[class$="dark"] {
+  background-color: #631302;
+}
+
+[class$="nude"] {
+  background-color: #66240e;
+}
+
+[class$="brown"] {
+  background-color: #662819;
+}
